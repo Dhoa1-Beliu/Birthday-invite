@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>BIrthday party</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ffe0ec, #ffe8cc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .invite-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        .invite-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 10px 20px rgba(104, 55, 184, 0.3);
+            text-align: center;
+            color: #444;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            color: #d1495b;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            margin-top: 1.5rem;
+            color: #555;
+        }
+
+        ul,
+        ol {
+            text-align: left;
+            max-width: 300px;
+            margin: 0.5rem auto 1.5rem auto;
+            padding-left: 1.2rem;
+            color: #555;
+        }
+
+        p {
+            color: #555;
+            font-size: 1em;
+            margin: 0.7rem 0;
+        }
+
+        .rsvp {
+            margin-top: 1.5rem;
+            font-style: italic;
+            color: #777;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            font-size: 1.1em;
+            color: #c14444;
+        }
+
+        a {
+            color: #d1495b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 500px) {
+            .invite-card {
+                padding: 1.2rem;
+                max-width: 90vw;
+            }
+            ul,
+            ol {
+                max-width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invite-container">
+        <div class="invite-card">
+            <h1>You're invited to Andrew Mal's birthday.</h1>
+            <h2>Join us to celebrate it.</h2>
+
+            <p>The details:</p>
+
+            <ul>
+                <li><strong>Date</strong>: Sunday, 2 August</li>
+                <li><strong>Time</strong>: 2:00 PM to 10:00 PM</li>
+                <li><strong>Location</strong>: 23 Laithe Street, BB8 8AX</li>
+            </ul>
+
+            <h2>There will be:</h2>
+            <ol>
+                <li>Music</li>
+                <li>Delicious food</li>
+                <li>Fun games</li>
+                <li>Lots of laughter</li>
+            </ol>
+
+            <p><strong>Dress code</strong>: casual & colorful<br />
+                <strong>Theme</strong>: summer vibes
+            </p>
+
+            <p class="rsvp">Please RSVP by mid-July</p>
+
+            <p><a href="tel:07856085591">Call: 07856085591</a></p>
+            <p><a href="mailto:tingpienyjr@gmail.com">Email: tingpienyjr@gmail.com</a></p>
+
+            <p class="footer">Can't wait to celebrate with you!</p>
+        </div>
+    </div>
+</body>
+</html>
+    
